@@ -1,50 +1,77 @@
+/* General styles */
 body {
-    margin: 0;
-    font-family: 'Google Sans', normal;
-    font-size:large;
-  }
+  margin: 0;
+  font-family: 'Google Sans', normal;
+  font-size: large;
+  flex-direction: column;
+}
 
-  .navbar {
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: flex-end;
-    background-color: #333;
-    padding: 10px 20px;
-    z-index: 1000; /* Optional: Ensures navbar stays on top of other elements */
-    align-items: center;
-  }
-  .navbar button {
-    background-color: #55555500;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    margin-left: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-family: 'Google Sans', normal;
-    font-size: large;
-  }
-  .navbar button:hover {
-    background-color: #777;
-  }
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #333;
+  padding: 10px 20px;
+  z-index: 1000;
+  align-items: center;
+}
 
-  .sitename {
-    margin-right: auto;
-    color: white
-  }
+.navbar button {
+  background-color: #55555500;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Google Sans', normal;
+  font-size: large;
+}
 
-  .intro {
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100vh; /* Full viewport height */
-    position: relative;
-  }
-  .content {
-    padding: 0px 400px 0px 120px;
-    text-align: left;
-  }
+.navbar button:hover {
+  background-color: #777;
+}
+
+.sitename {
+  margin-right: auto;
+  color: white;
+}
+
+.intro {
+  background-color: #333;
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  font-size:x-large
+}
+
+.content {
+  padding: 0px 400px 0px 120px;
+  text-align: left;
+}
+
+.content2 {
+  padding: 0 2em 0 2em;
+  text-align: center;
+  font-size: larger;
+}
+
+.oneliner {
+  font-size: x-large;
+}
+
+.part2 {
+  background-color: #7e7676;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 20vh;
+  position: relative
+}
